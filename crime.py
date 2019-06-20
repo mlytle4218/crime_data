@@ -131,5 +131,5 @@ for keep in to_keep:
 # df_crime.drop(cols, inplace=True, axis=1)
 
 # print(df_crime.head(25))
-# df_crime.to_csv('out.csv', encoding='utf-8', index=False)
+df_crime.to_csv('crime_cleaned.csv', encoding='utf-8', index=False)
 
